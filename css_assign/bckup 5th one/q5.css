@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding-left: 30px;
+    font-weight: 500;
+    
+}
+
+h2{
+    background-image: linear-gradient(#e6d8ba,#fffbf0);
+    padding: 5px;
+}
+button{
+    background-color: rgb(82, 201, 82);
+    border-radius: 5px;
+    padding: 6px;
+}
+footer a{
+    border-left: 2px solid grey;
+    margin-left: 10px;
+    padding-left:14px ;
+}
+
+input[type="tel"] {
+    width: 100px;
+}
+select{
+    /* background-color: rgb(255, 255, 255);*/
+    background-image: linear-gradient(rgb(185, 182, 182) , white);
+    border-radius: 4px;
+    padding: 4px;
+}
+input{
+    width: 250px;
+    height: 25px;
+    padding:2px;
+    box-sizing: border-box;  
+}
+input , select{
+    margin-bottom: 20px ;
+
+}
+.secondSection span , .firstSection span {
+    color: grey;
+}
+#userId , #password , #email{
+    margin-bottom: 0;
+}

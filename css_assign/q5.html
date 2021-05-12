@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q5 Form</title>
+    <link rel="stylesheet" href="q5.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Create an Account</h1>
+            <span>Just fill in the information below and let us know if you <a href="#">need help</a></span>
+        </header>
+
+        <form action="/">
+            <h2>Tell us about yourself</h2>
+            <label for="firstName">First Name</label> <br>
+            <input type="text" name="" id="firstName" required> <br>
+            <label for="lasttName">last Name</label> <br>
+            <input type="text" name="" id="lastName" required> <br>
+            <p class="emailP"> <label for="email">Email Address</label> <br>
+                <input type="email" name="" id="email" required> <br>
+                <span> We will not sell or spam your email address.</span> <br>
+            </p>
+            <label for="gender">Gender</label> <br>
+            <select name="gender" id="gender" required>
+                <option value="none" selected> --Select One-- </option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select> <br>
+            <label for="country">I live in </label> <br>
+            <select name="palce" id="country" required>
+                <option value="UK" selected>United Kingdom</option>
+                <option value="IN" selected>india</option>
+                <option value="USA" selected>United States Of America</option>
+            </select> <br>
+            <label for="postal">Postal Code</label> <br>
+            <input type="tel" id="postal" size="10">
+            <h2>Select an ID and password</h2>
+
+            <p> <label for="userId">User ID </label> <br>
+                <input type="text" name="" id="userId" minlength="5" required><br>
+                <span> 5 characters minimum </span> <br>
+            </p>
+
+            <p><label for="password">Password</label> <br>
+                <input type="password" name="" id="password" minlength="5" required> <br>
+                <span class="userName"> 5 characters minimum, must include a special character. Example:secr3t
+                </span><br>
+            </p>
+            <label for="passwordConf">Retype Password</label> <br>
+            <input type="password" name="" id="passwordConf" minlength="5" required> <br>
+            <button type="submit">Create Account</button>
+            <a href="../csspages.html">Cancel</a>
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

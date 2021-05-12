@@ -1,0 +1,40 @@
+html {
+    height: auto;
+    background: #45473f;
+  }
+  
+  body {
+    width: 50%;
+    margin: 20px auto;
+    background: #ffe3a6;
+  }
+  
+  #sidebar {
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-right: -200px;
+    background: #d4c37b; 
+  }
+  
+  #main {
+    float: left;
+    border-left: 200px solid #d4c37b; }
+  
+  #header,
+  #footer {
+    clear: left;
+    overflow: hidden;
+    background: #9c9965;
+    color: #ecdc93;
+    padding-left:30px ;
+    font-size: 25px;
+  }
+  
+  #footer{
+height: 150px;
+  }
+  .container{
+      border:25px solid rgb(44, 43, 28);
+  }

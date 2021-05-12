@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding-left: 30px;
+    font-weight: 500;
+    
+}
+
+h2{
+    background-image: linear-gradient(#e6d8ba,#fffbf0);
+    padding: 5px;
+}
+button{
+    background-color: rgb(169, 227, 111);
+    border-radius: 5px;
+    padding: 6px;
+    box-shadow: 0px 5px 20px -20px white inset;
+}
+form a{
+    border-left: 2px solid grey;
+    margin-left: 10px;
+    padding-left:14px ;
+}
+
+input[type="tel"] {
+    width: 100px;
+}
+select{
+    background-image: linear-gradient(rgb(185, 182, 182) , white);
+    border-radius: 4px;
+    padding: 4px;
+}
+input{
+    width: 250px;
+    height: 25px;
+    padding:2px;
+    box-sizing: border-box;  
+}
+input , select{
+    margin-bottom: 20px ;
+
+}
+form span {
+    color: grey;
+}
+#userId , #password , #email{
+    margin-bottom: 0;
+}
+
+h1{
+    margin-bottom: 0;
+}
+.emailP{
+    margin-top: 0;
+}
+

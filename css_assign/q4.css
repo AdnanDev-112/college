@@ -1,0 +1,28 @@
+fieldset{
+    border: none;
+    height: 300px;
+    font-size: 26px;
+    
+}
+legend{
+    font-size: 26px;
+    font-weight: 800%;
+}
+button{
+    background-color: rgb(73, 71, 71);
+    border-radius: 3px;
+    color: white;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: left;
+    font-size: 20px;
+}
+input {
+  display: inline-block;
+ 
+}
